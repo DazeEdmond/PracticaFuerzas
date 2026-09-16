@@ -57,7 +57,7 @@ class Agente{
         push();
         translate(0, 0);
         noStroke();
-        circle(this.pos.x, this.pos.y, this.r*2);
+        circle(this.pos.x, this.pos.y, this.r);
         pop();
     }
 }
